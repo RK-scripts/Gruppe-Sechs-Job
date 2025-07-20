@@ -1,0 +1,45 @@
+# RK Gruppe Sechs Job
+
+Script lavoro portavalori per server ESX FiveM.
+
+## Caratteristiche
+
+- 💰 Lavoro interattivo con tablet NUI
+- 🚚 Sistema completo di raccolta denaro ATM
+- 👮 Guard NPCs con valigette animate
+- 🎯 Sistema waypoint automatico
+- 🔒 Sicurezza multiplayer con database
+- ⚡ Terminazione anticipata disponibile
+
+## Installazione
+
+1. Estrai nella cartella `resources`
+2. Aggiungi `ensure rk_GruppeSechs` al server.cfg
+3. Riavvia il server (il database si crea automaticamente)
+
+## Dipendenze
+
+- ESX Framework
+- ox_target
+- ox_lib
+- oxmysql
+
+## Come funziona
+
+1. **Avvio**: Interagisci con il ped per aprire il tablet
+2. **Raccolta**: Vai agli ATM, recupera le valigette dai guard
+3. **Deposito**: Porta le valigette al furgone blindato
+4. **Consegna**: Torna dal capo, prendi la valigetta finale e consegnala
+5. **Pagamento**: Ricevi $5000 per il lavoro completato
+
+## Configurazione
+
+Modifica `Config.lua` per personalizzare:
+- Coordinate ped e veicolo
+- Punti raccolta ATM
+- Importo pagamento
+- Modelli NPC e props
+
+## Supporto
+
+Script sviluppato per server ESX con sistema di cleanup automatico del database.
